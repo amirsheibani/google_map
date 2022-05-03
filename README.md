@@ -1,16 +1,21 @@
 # TCO_Team test task
 
-A new Flutter project.
+- platform/ language: [Flutter / Dart](https://docs.flutter.dev/)
+- state manager: [BLOC](https://bloclibrary.dev/#/)
+- architecture: [BLOC](https://medium.com/codechai/architecting-your-flutter-project-bd04e144a8f1) / [Clean architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
-## Getting Started
+**l10n**: includes strings in diffenrt language.
 
-This project is a starting point for a Flutter application.
+**common**: includes extension functions and constants.
 
-A few resources to get you started if this is your first Flutter project:
+**config**: includes routes and themes.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+**core**: includes error handlong, general usecases ....
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**data**: includes data sources, models.
+
+**di**: includes dipendency injection related files.
+
+**domain**: is clean architecture domain layout (include usecases, entities, ...).
+
+**presentation**: includes all feature pages and presentation base classes.
