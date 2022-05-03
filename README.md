@@ -1,4 +1,4 @@
-# tco_team_test
+# TCO_Team test task
 
 A new Flutter project.
 
