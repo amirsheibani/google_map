@@ -67,6 +67,7 @@ class _HomePageState extends State<HomePage> {
           }, serverSuccess: (data) {
             context.showSnackBar('airport data fetch from server success',
                 type: SnackBarType.success);
+            context.read<LocationCubit>().callLocationData(data);
           }, localDBSuccess: (data) {
             context.read<LocationCubit>().callLocationData(data);
             if (data) {
